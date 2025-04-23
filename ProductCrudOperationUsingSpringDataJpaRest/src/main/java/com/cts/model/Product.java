@@ -36,7 +36,7 @@ public class Product {
 	private int productQuantity;
 
 	public Product() {
-
+		System.out.println("Default constructs from gowtham branch");
 	}
 
 	public Product(String productName, int productPrice, String productCategory, int productQuantity) {
