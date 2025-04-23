@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ProductCrudOperationUsingSpringJpaApplication {
 
 	public static void main(String[] args) {
-		System.out.println("Changes in day 1");
+	
 		SpringApplication.run(ProductCrudOperationUsingSpringJpaApplication.class, args);
 
 	}
