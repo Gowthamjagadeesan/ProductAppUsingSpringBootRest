@@ -24,7 +24,7 @@ public class ProductServiceImpl implements ProductService {
 		log.info("In ProductServiceImpl saveProduct method ....");
 		Product pro = repository.save(product);
 		if (pro != null) {
-			return "Product saved successfully";
+			return "Product Saved Successfully";
 		} else {
 			return "Product not saved successfully";
 		}
@@ -40,7 +40,7 @@ public class ProductServiceImpl implements ProductService {
 	@Override
 	public String removeProduct(int productId) {
 		repository.deleteById(productId);
-		return "Product deleted successfully";
+		return "Product Deleted";
 	}
 
 	@Override
